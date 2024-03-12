@@ -1,5 +1,8 @@
 package com.sky.context;
 
+/**
+ * 存储当前jwt令牌的employee_id
+ */
 public class BaseContext {
 
     public static ThreadLocal<Long> threadLocal = new ThreadLocal<>();
